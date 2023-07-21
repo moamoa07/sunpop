@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Gelica-black';
+  src: url('./src/assets/fonts/Fontspring-DEMO-gelica-black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gelica-regular';
+  src: url('./src/assets/fonts/Fontspring-DEMO-gelica-regular') format('opentype');
+}
+

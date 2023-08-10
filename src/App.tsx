@@ -1,12 +1,10 @@
-import { Typography } from '@mui/material';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <Typography sx={{ fontFamily: 'gelica-regluar' }} variant="h1">
-        hello
-      </Typography>
+    <div>
+      <Header />
     </div>
   );
 }

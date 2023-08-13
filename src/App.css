@@ -10,6 +10,11 @@
 
 @font-face {
   font-family: 'Gelica-regular';
-  src: url('./src/assets/fonts/Fontspring-DEMO-gelica-regular') format('opentype');
+  src: url('./src/assets/fonts/Fontspring-DEMO-gelica-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'arial';
+  src: url('./src/assets/fonts/arial.ttf') format('truetype');
 }
 

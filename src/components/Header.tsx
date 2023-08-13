@@ -3,7 +3,6 @@ import {
   AppBar,
   Box,
   Button,
-  Container,
   IconButton,
   Menu,
   MenuItem,
@@ -12,7 +11,7 @@ import {
 } from '@mui/material';
 import React from 'react';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Home', 'Shop', 'Contact'];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
@@ -33,7 +32,7 @@ function Header() {
       elevation={0}
       sx={{ width: '100%', backgroundColor: '#fff' }}
     >
-      <Container
+      <Box
         sx={{
           display: 'flex',
           flexDirection: 'column',
@@ -149,7 +148,7 @@ function Header() {
             </Button>
           ))}
         </Box>
-      </Container>
+      </Box>
     </AppBar>
   );
 }

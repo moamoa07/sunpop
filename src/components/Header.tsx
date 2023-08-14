@@ -52,41 +52,21 @@ function Header() {
             backgroundColor: '#fff',
           }}
         >
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              display: { xs: 'none', md: 'flex' },
-              justifyContent: 'center',
-              fontFamily: 'gelica-black',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: '#141414',
-              textDecoration: 'none',
-            }}
-          >
-            Sun pop
-          </Typography>
+          <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+            <img
+              src="./src/assets/images/logo.png"
+              alt=""
+              style={{ width: '6rem', padding: '1rem' }}
+            />
+          </Box>
 
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'gelica-black',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            Sun pop
-          </Typography>
+          <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+            <img
+              src="./src/assets/images/logo.png"
+              alt=""
+              style={{ width: '6rem', padding: '1rem' }}
+            />
+          </Box>
 
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -95,7 +75,7 @@ function Header() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              sx={{ color: '#141414' }}
             >
               <MenuIcon />
             </IconButton>

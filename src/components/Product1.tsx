@@ -11,17 +11,7 @@ function Product1() {
         maxHeight: '800px',
       }}
     >
-      <Box sx={{ display: 'flex', flex: 1, position: 'relative' }}>
-        <Box
-          sx={{
-            position: 'absolute',
-            right: '9rem',
-            top: '2rem',
-            zIndex: '1',
-          }}
-        >
-          <img src="./src/assets/images/lemon.png" alt="" />
-        </Box>
+      <Box sx={{ display: 'flex', flex: 1 }}>
         <Box sx={{ zIndex: '2' }}>
           <img
             src="./src/assets/images/PLsoda.png"
@@ -30,7 +20,7 @@ function Product1() {
           />
         </Box>
       </Box>
-      <Box sx={{ display: 'flex', flex: 1, position: 'relative' }}>
+      <Box sx={{ display: 'flex', flex: 1 }}>
         <Box
           sx={{
             flexDirection: 'column',
@@ -65,21 +55,13 @@ function Product1() {
               width: '25%',
               fontFamily: 'Gelica-regular',
               marginTop: '3rem',
+              '&:hover': {
+                backgroundColor: '#FFA180',
+              },
             }}
           >
             Buy now
           </Button>
-          <Box
-            sx={{
-              position: 'absolute',
-              right: '9rem',
-              bottom: '-5rem',
-              zIndex: '1',
-              rotate: '90deg',
-            }}
-          >
-            <img src="./src/assets/images/peach.png" alt="" />
-          </Box>
         </Box>
       </Box>
     </Box>

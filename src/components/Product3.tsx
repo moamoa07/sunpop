@@ -54,6 +54,9 @@ function Product3() {
               width: '25%',
               fontFamily: 'Gelica-regular',
               marginTop: '3rem',
+              '&:hover': {
+                backgroundColor: '#FFA180',
+              },
             }}
           >
             Buy now

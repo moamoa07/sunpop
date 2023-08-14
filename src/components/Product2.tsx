@@ -21,9 +21,6 @@ function Product2() {
         </Box>
       </Box>
       <Box sx={{ display: 'flex', flex: 1 }}>
-        {/* <Box>
-          <img src="./src/assets/images/strawberry.png" alt="" />
-        </Box> */}
         <Box
           sx={{
             flexDirection: 'column',
@@ -57,6 +54,9 @@ function Product2() {
               width: '25%',
               fontFamily: 'Gelica-regular',
               marginTop: '3rem',
+              '&:hover': {
+                backgroundColor: '#FFA180',
+              },
             }}
           >
             Buy now

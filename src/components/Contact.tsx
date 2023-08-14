@@ -13,19 +13,12 @@ function Contact() {
       }}
     >
       <Box>
-        <Typography
-          sx={{
-            fontFamily: 'Gelica-black',
-            fontSize: '8rem',
-          }}
-        >
-          Get in touch
-        </Typography>
+        <img src="./src/assets/images/Getintouch!.png" alt="" />
         <Typography
           sx={{
             fontFamily: 'Gelica-regular',
             fontSize: '2rem',
-            marginTop: '-3rem',
+            // marginTop: '-3rem',
           }}
         >
           If we can help you with anything, please let us know.

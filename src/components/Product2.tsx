@@ -5,10 +5,11 @@ function Product2() {
     <Box
       sx={{
         backgroundColor: '#FCF8C9',
-        height: '100vh',
+        height: { xs: 'auto', md: '100vh' },
         display: 'flex',
         alignItems: 'center',
-        maxHeight: '800px',
+        maxHeight: { xs: 'auto', md: '800px' },
+        flexDirection: { xs: 'column', md: 'row' },
       }}
     >
       <Box sx={{ display: 'flex', flex: 1 }}>
@@ -20,11 +21,10 @@ function Product2() {
           />
         </Box>
       </Box>
-      <Box sx={{ display: 'flex', flex: 1 }}>
+      <Box sx={{ display: 'flex', flex: 1, margin: { xs: '2rem', md: 0 } }}>
         <Box
           sx={{
             flexDirection: 'column',
-            // marginTop: '10%',
           }}
         >
           <img
@@ -34,10 +34,11 @@ function Product2() {
           />
           <Typography
             sx={{
-              width: '80%',
+              width: { xs: '100%', md: '80%' },
               marginTop: '1rem',
               fontFamily: 'arial',
               letterSpacing: 4,
+              fontSize: { xs: '0.8rem', md: '1rem' },
             }}
           >
             Experience the perfect harmony of luscious strawberries and zingy
@@ -57,6 +58,7 @@ function Product2() {
               '&:hover': {
                 backgroundColor: '#FFA180',
               },
+              marginBottom: { xs: '1rem' },
             }}
           >
             Buy now

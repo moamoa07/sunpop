@@ -4,12 +4,11 @@ function Contact() {
   return (
     <Box
       sx={{
-        height: '100vh',
-        // padding: '3rem',
-        margin: '0rem 10rem',
+        height: { xs: 'auto', md: '100vh' },
+        margin: { xs: '4rem 1rem', md: '0rem 10rem' },
         display: 'flex',
-        // justifyContent: 'center',
         alignItems: 'center',
+        maxHeight: '800px',
       }}
     >
       <Box>
@@ -21,7 +20,7 @@ function Contact() {
         <Typography
           sx={{
             fontFamily: 'Gelica-regular',
-            fontSize: '2rem',
+            fontSize: { xs: '1.4rem', md: '2rem' },
             // marginTop: '-3rem',
           }}
         >

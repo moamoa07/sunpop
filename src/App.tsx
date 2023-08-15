@@ -8,7 +8,16 @@ import Product3 from './components/Product3';
 
 function App() {
   return (
-    <div>
+    <div
+      style={{
+        maxWidth: '1440px',
+        display: 'flex',
+        flexDirection: 'column',
+        margin: '0 auto',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
       <Header />
       <Masthead />
       <Product1 />

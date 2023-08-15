@@ -4,18 +4,20 @@ function Masthead() {
   return (
     <Box
       sx={{
-        minHeight: `calc(100vh - 132.5px)`,
+        height: `100vh`,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        maxHeight: '1000px',
+        // backgroundImage: 'url(./src/asssets/images/testimage.png)',
       }}
     >
       <img
         src="/src/assets/images/testimage.png"
         alt=""
         style={{
-          width: '80%',
-          height: '80%',
+          width: '100%',
+          // height: '100%',
           objectFit: 'cover',
         }}
       />

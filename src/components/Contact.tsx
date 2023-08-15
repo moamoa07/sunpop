@@ -6,14 +6,18 @@ function Contact() {
       sx={{
         height: '100vh',
         // padding: '3rem',
-        // margin: '0 3rem',
+        margin: '0rem 10rem',
         display: 'flex',
-        justifyContent: 'center',
+        // justifyContent: 'center',
         alignItems: 'center',
       }}
     >
       <Box>
-        <img src="./src/assets/images/Getintouch!.png" alt="" />
+        <img
+          src="./src/assets/images/Getintouch!.png"
+          alt=""
+          style={{ width: '60%' }}
+        />
         <Typography
           sx={{
             fontFamily: 'Gelica-regular',

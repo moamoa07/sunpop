@@ -56,7 +56,7 @@ function Product3() {
               fontFamily: 'Gelica-regular',
               marginTop: '3rem',
               '&:hover': {
-                backgroundColor: '#FFA180',
+                backgroundColor: '#D697A6',
               },
               marginBottom: { xs: '1rem' },
             }}

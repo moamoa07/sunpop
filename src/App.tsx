@@ -10,7 +10,7 @@ function App() {
   return (
     <div
       style={{
-        maxWidth: '1440px',
+        maxWidth: '1600px',
         display: 'flex',
         flexDirection: 'column',
         margin: '0 auto',

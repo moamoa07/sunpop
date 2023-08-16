@@ -5,7 +5,7 @@ function Contact() {
     <Box
       sx={{
         height: { xs: 'auto', md: '100vh' },
-        margin: { xs: '4rem 1rem', md: '0rem 10rem' },
+        padding: { xs: '4rem 1rem', md: '0rem 4rem' },
         display: 'flex',
         alignItems: 'center',
         maxHeight: '800px',
@@ -15,7 +15,7 @@ function Contact() {
         <img
           src="./src/assets/images/Getintouch!.png"
           alt=""
-          style={{ width: '60%' }}
+          style={{ width: '50%' }}
         />
         <Typography
           sx={{
@@ -65,6 +65,9 @@ function Contact() {
             Solskensgatan 12 <br /> 123 67 Solstaden <br /> Sverige
           </Typography>
         </Box>
+      </Box>
+      <Box>
+        <img src="./src/assets/images/decor.png" alt="" />
       </Box>
     </Box>
   );

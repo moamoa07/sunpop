@@ -1,4 +1,5 @@
 import { Box, Button, Typography } from '@mui/material';
+import 'animate.css';
 
 function Product1() {
   return (
@@ -13,7 +14,7 @@ function Product1() {
       }}
     >
       <Box sx={{ display: 'flex', flex: 1 }}>
-        <Box>
+        <Box className="animate__animated animate__slideInLeft">
           <img
             src="./src/assets/images/PLsoda.png"
             alt=""

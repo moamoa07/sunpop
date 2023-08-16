@@ -1,6 +1,7 @@
 import './App.css';
 import Contact from './components/Contact';
 import Header from './components/Header';
+import MarqueeDivider from './components/MarqueeDivider';
 import Masthead from './components/Masthead';
 import Product1 from './components/Product1';
 import Product2 from './components/Product2';
@@ -23,6 +24,7 @@ function App() {
       <Product1 />
       <Product2 />
       <Product3 />
+      <MarqueeDivider />
       <Contact />
     </div>
   );

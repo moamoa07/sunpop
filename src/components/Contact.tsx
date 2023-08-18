@@ -39,7 +39,7 @@ function Contact() {
               fontSize: '1.2rem',
             }}
           >
-            contact@sunpop.com
+            contact<span style={{ fontFamily: 'arial' }}>@</span>sunpop.com
           </Typography>
         </Box>
         <Box sx={{ marginTop: '2rem' }}>

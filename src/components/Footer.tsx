@@ -15,7 +15,13 @@ function Footer() {
       <Box>
         <img src="../Subtract.png" alt="" style={{ width: '100%' }} />
       </Box>
-      <Box sx={{ backgroundColor: '#E9FDED', padding: '0 1rem' }}>
+      <Box
+        sx={{
+          backgroundColor: '#E9FDED',
+          padding: '0 1rem',
+          paddingBottom: '2rem',
+        }}
+      >
         <Grid container spacing={2}>
           <Grid item xs={12} md={12} lg={6}>
             <List>

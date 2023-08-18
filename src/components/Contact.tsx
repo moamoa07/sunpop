@@ -9,6 +9,7 @@ function Contact() {
         display: 'flex',
         alignItems: 'center',
         maxHeight: '800px',
+        width: '80%',
       }}
     >
       <Box>
@@ -65,9 +66,6 @@ function Contact() {
             Solskensgatan 12 <br /> 123 67 Solstaden <br /> Sverige
           </Typography>
         </Box>
-      </Box>
-      <Box>
-        <img src="./src/assets/images/decor.png" alt="" />
       </Box>
     </Box>
   );

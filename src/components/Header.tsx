@@ -54,7 +54,7 @@ function Header() {
         >
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <img
-              src="./src/assets/images/logo.png"
+              src="../logo.png"
               alt=""
               style={{ width: '6rem', padding: '1rem' }}
             />
@@ -62,7 +62,7 @@ function Header() {
 
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <img
-              src="./src/assets/images/logo.png"
+              src="../logo.png"
               alt=""
               style={{ width: '6rem', padding: '1rem' }}
             />

@@ -13,22 +13,14 @@ function Footer() {
   return (
     <Box sx={{ width: '100%' }}>
       <Box>
-        <img
-          src="./src/assets/images/Subtract.png"
-          alt=""
-          style={{ width: '100%' }}
-        />
+        <img src="../Subtract.png" alt="" style={{ width: '100%' }} />
       </Box>
       <Box sx={{ backgroundColor: '#E9FDED', padding: '0 1rem' }}>
         <Grid container spacing={2}>
           <Grid item xs={12} md={12} lg={6}>
             <List>
               <ListItem>
-                <img
-                  src="./src/assets/images/logo.png"
-                  alt=""
-                  style={{ width: '7rem' }}
-                />
+                <img src="../logo.png" alt="" style={{ width: '7rem' }} />
               </ListItem>
               <ListItem>
                 <Typography

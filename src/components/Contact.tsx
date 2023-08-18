@@ -13,11 +13,7 @@ function Contact() {
       }}
     >
       <Box>
-        <img
-          src="./src/assets/images/Getintouch!.png"
-          alt=""
-          style={{ width: '50%' }}
-        />
+        <img src="../Getintouch!.png" alt="" style={{ width: '50%' }} />
         <Typography
           sx={{
             fontFamily: 'Gelica-regular',

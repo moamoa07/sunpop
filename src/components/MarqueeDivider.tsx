@@ -3,7 +3,7 @@ import MarqueeContent from './MarqueeContent';
 
 function MarqueeDivider() {
   return (
-    <Marquee style={{ background: '#E9F7FC' }}>
+    <Marquee style={{ background: '#E9F7FC', height: '2.5rem' }}>
       <MarqueeContent word={'Refreshing'} />
       <MarqueeContent word={'Nourishing'} />
       <MarqueeContent word={'Rejuvenating'} />

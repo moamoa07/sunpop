@@ -1,5 +1,6 @@
 import { Box, Button, Typography } from '@mui/material';
 import 'animate.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function Product1() {
   return (
@@ -14,13 +15,15 @@ function Product1() {
       }}
     >
       <Box sx={{ display: 'flex', flex: 1 }}>
-        <Box className="animate__animated animate__slideInLeft">
-          <img
-            src="./src/assets/images/PLsoda.png"
-            alt=""
-            style={{ width: '100%' }}
-          />
-        </Box>
+        <AnimationOnScroll animateIn="animate__bounceInLeft" animateOnce={true}>
+          <Box>
+            <img
+              src="./src/assets/images/PLsoda.png"
+              alt=""
+              style={{ width: '100%' }}
+            />
+          </Box>
+        </AnimationOnScroll>
       </Box>
       <Box sx={{ display: 'flex', flex: 1, margin: { xs: '2rem', md: 0 } }}>
         <Box
@@ -28,11 +31,16 @@ function Product1() {
             flexDirection: 'column',
           }}
         >
-          <img
-            src="./src/assets/images/Peach&Lime.png"
-            alt=""
-            style={{ width: '30%' }}
-          />
+          <AnimationOnScroll
+            animateIn="animate__bounceInDown"
+            animateOnce={true}
+          >
+            <img
+              src="./src/assets/images/Peach&Lime.png"
+              alt=""
+              style={{ width: '30%' }}
+            />
+          </AnimationOnScroll>
           <Typography
             sx={{
               width: { xs: '100%', md: '80%' },

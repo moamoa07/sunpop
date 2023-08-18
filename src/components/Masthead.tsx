@@ -12,7 +12,7 @@ function Masthead() {
       }}
     >
       <img
-        src="/src/assets/images/testimage.png"
+        src="../testimage.png"
         alt=""
         style={{
           width: '100%',

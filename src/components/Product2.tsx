@@ -16,11 +16,7 @@ function Product2() {
       <Box sx={{ display: 'flex', flex: 1 }}>
         <AnimationOnScroll animateIn="animate__bounceInLeft" animateOnce={true}>
           <Box>
-            <img
-              src="./src/assets/images/SLsoda.png"
-              alt=""
-              style={{ width: '100%' }}
-            />
+            <img src="../SLsoda.png" alt="" style={{ width: '100%' }} />
           </Box>
         </AnimationOnScroll>
       </Box>
@@ -35,7 +31,7 @@ function Product2() {
             animateOnce={true}
           >
             <img
-              src="./src/assets/images/Strawberry&Lemon.png"
+              src="../Strawberry&Lemon.png"
               alt=""
               style={{ width: '45%' }}
             />

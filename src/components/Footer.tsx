@@ -1,13 +1,4 @@
-import HomeSharpIcon from '@mui/icons-material/HomeSharp';
-import MailOutlineSharpIcon from '@mui/icons-material/MailOutlineSharp';
-import {
-  Box,
-  Grid,
-  List,
-  ListItem,
-  ListItemIcon,
-  Typography,
-} from '@mui/material';
+import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 
 function Footer() {
   return (
@@ -53,7 +44,7 @@ function Footer() {
                   sx={{
                     fontFamily: 'Gelica-regular',
                     fontWeight: '800',
-                    fontSize: '1.2rem',
+                    fontSize: { xs: '1rem', md: '1.2rem' },
                   }}
                 >
                   Products
@@ -64,6 +55,7 @@ function Footer() {
                   sx={{
                     fontFamily: 'arial',
                     letterSpacing: 2,
+                    fontSize: { xs: '0.8rem', md: '1rem' },
                   }}
                 >
                   Peach & Lime Soda
@@ -74,6 +66,7 @@ function Footer() {
                   sx={{
                     fontFamily: 'arial',
                     letterSpacing: 2,
+                    fontSize: { xs: '0.8rem', md: '1rem' },
                   }}
                 >
                   Strawberry & Lemon Soda
@@ -84,6 +77,7 @@ function Footer() {
                   sx={{
                     fontFamily: 'arial',
                     letterSpacing: 2,
+                    fontSize: { xs: '0.8rem', md: '1rem' },
                   }}
                 >
                   Passionfruit & Pineapple Soda
@@ -98,33 +92,29 @@ function Footer() {
                   sx={{
                     fontFamily: 'Gelica-regular',
                     fontWeight: '800',
-                    fontSize: '1.2rem',
+                    fontSize: { xs: '1rem', md: '1.2rem' },
                   }}
                 >
                   Contact
                 </Typography>
               </ListItem>
               <ListItem>
-                <ListItemIcon>
-                  <MailOutlineSharpIcon />
-                </ListItemIcon>
                 <Typography
                   sx={{
                     fontFamily: 'arial',
                     letterSpacing: 2,
+                    fontSize: { xs: '0.8rem', md: '1rem' },
                   }}
                 >
                   contact@sunpop.com
                 </Typography>
               </ListItem>
               <ListItem>
-                <ListItemIcon>
-                  <HomeSharpIcon />
-                </ListItemIcon>
                 <Typography
                   sx={{
                     fontFamily: 'arial',
                     letterSpacing: 2,
+                    fontSize: { xs: '0.8rem', md: '1rem' },
                   }}
                 >
                   Solskensgatan 12, 123 67 Solstaden, Sweden

@@ -80,7 +80,7 @@ function Footer() {
                     letterSpacing: 2,
                   }}
                 >
-                  Passionfruit & Pineapple
+                  Passionfruit & Pineapple Soda
                 </Typography>
               </ListItem>
             </List>
